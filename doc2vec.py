@@ -9,6 +9,12 @@ import pdb
 import glob
 import numpy as np
 
+from sklearn import svm
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
 
 def read_corpus(doc_list, labels_list, tokens_only=False):
 
@@ -27,21 +33,27 @@ txt_files = glob.glob(txt_glob)
 
 data = []
 docLabels = []
+labels = []
+labels_txt = []
 for f in range(len(txt_files)):
     data.append(open(txt_files[f], "r"))
 
     lab = txt_files[f].split("/")[3].split(".")[0]
     docLabels.append(lab)
 
-    # topic = txt_files[f].split("/")[2].lower()
-    # if topic == "arts":
-    #     labels.append(0)
-    # elif topic == "food":
-    #     labels.append(1)
-    # elif topic == "politics":
-    #     labels.append(2)
-    # elif topic == "tech":
-    #     labels.append(3)
+    topic = txt_files[f].split("/")[2].lower()
+    if topic == "arts":
+        labels.append(0)
+        labels_txt.append("arts")
+    elif topic == "food":
+        labels.append(1)
+        labels_txt.append("food")
+    elif topic == "politics":
+        labels.append(2)
+        labels_txt.append("politics")
+    elif topic == "tech":
+        labels.append(3)
+        labels_txt.append("tech")
 
 a = ['anneImhof']
 labelToIndx = dict()
@@ -69,7 +81,7 @@ train_corpus = list(read_corpus(data, docLabels))
 # print(train_corpus[:2])
 # print(test_corpus[:2])
 
-model = gensim.models.doc2vec.Doc2Vec(size=50, min_count=2, iter=550)
+model = gensim.models.doc2vec.Doc2Vec(size=100, min_count=2, iter=200)
 
 model.build_vocab(train_corpus)
 
@@ -104,6 +116,45 @@ for doc_idx, doc_label in enumerate(docLabels):
 print inferredVectors
 
 print collections.Counter(ranks)  # Results vary due to random seeding and very small corpus
+
+# Save to file
+np.savetxt('inf_vecs.csv', inferredVectors, delimiter=",")
+np.savetxt('labels.csv', labels, delimiter=",")
+np.savetxt('labels_txt.csv', labels_txt, delimiter=",", fmt="%s")
+
+pdb.set_trace()
+
+##########################
+######## SVM Stuff #######
+##########################
+
+X_train, X_test, y_train, y_test = train_test_split(inferredVectors, labels, test_size=0.2)
+
+# Specify Grid search
+param_grid = [
+{'C': [1, 10, 100], 'gamma': [0.1, 0.01, 0.001], 'kernel': ['poly']},
+{'C': [1, 10, 100], 'gamma': [0.1, 0.01, 0.001], 'kernel': ['rbf']},
+]
+
+svc = svm.SVC(decision_function_shape='ovo', probability=True)
+clf = GridSearchCV(svc, param_grid)
+#
+# start = time.clock()
+#
+clf.fit(X_train, y_train)
+# # dec = clf.decision_function(x_train)
+# # clf.predict(X_Test)
+#
+print(clf.best_params_)
+# print time.clock() - start
+#
+y_true, y_pred = y_test, clf.predict(X_test)
+report = classification_report(y_true, y_pred)
+print(report)
+
+########################
+########################
+########################
 
 pdb.set_trace()
 
