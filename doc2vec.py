@@ -39,7 +39,7 @@ for doc in docLabels:
     data.append(open("Documents/" + doc, 'r'))
 
 train_corpus = list(read_corpus(data, docLabels))
-test_corpus = list(read_corpus(data, docLabels, tokens_only=True))
+# test_corpus = list(read_corpus(data, docLabels, tokens_only=True))
 
 # print(train_corpus[:2])
 # print(test_corpus[:2])
