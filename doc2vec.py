@@ -7,6 +7,7 @@ import smart_open
 import random
 import pdb
 import glob
+import numpy as np
 
 
 def read_corpus(doc_list, labels_list, tokens_only=False):
@@ -19,7 +20,7 @@ def read_corpus(doc_list, labels_list, tokens_only=False):
             # For training data, add tags
             yield gensim.models.doc2vec.TaggedDocument(words=gensim.utils.simple_preprocess(doc.read()), tags=[labels_list[idx]])
 
-pdb.set_trace()
+# pdb.set_trace()
 
 txt_glob = './Documents/**/*.txt'
 txt_files = glob.glob(txt_glob)
@@ -42,23 +43,19 @@ for f in range(len(txt_files)):
     # elif topic == "tech":
     #     labels.append(3)
 
+a = ['anneImhof']
+labelToIndx = dict()
+for i, label in enumerate(docLabels):
+        labelToIndx[label] = i
 
-pdb.set_trace()
-
-# docLabels = []
-# docLabels = [f for f in listdir("Documents") if f.endswith('.txt')]
-#
-# a = ['quantumComputer.txt']
-#
-# labelToIndx = dict()
-# for i, label in enumerate(docLabels):
-#         labelToIndx[label] = i
-#
-# print labelToIndx[a[0]]
-#
+print('anneImhof has index ', labelToIndx[a[0]])
 # print labelToIndx
 # print(docLabels)
 
+# pdb.set_trace()
+
+# docLabels = []
+# docLabels = [f for f in listdir("Documents") if f.endswith('.txt')]
 
 
 # data = []
@@ -68,7 +65,7 @@ pdb.set_trace()
 train_corpus = list(read_corpus(data, docLabels))
 # test_corpus = list(read_corpus(data, docLabels, tokens_only=True))
 
-pdb.set_trace()
+# pdb.set_trace()
 # print(train_corpus[:2])
 # print(test_corpus[:2])
 
@@ -76,28 +73,35 @@ model = gensim.models.doc2vec.Doc2Vec(size=50, min_count=2, iter=550)
 
 model.build_vocab(train_corpus)
 
-# print model.wv.vocab['and'].count
+print model.wv.vocab['and'].count
 
 # print model.wv.vocab
-
+print
 
 model.train(train_corpus, total_examples=model.corpus_count, epochs=model.iter)
 
-# print model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
+print model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
 
 # print model.infer_vector(['computer', 'supercomputer', 'quantum', 'program', 'this', 'that'])
 
+
+inferredVectors = np.empty(shape=(len(docLabels), model.vector_size))
 
 ranks = []
 second_ranks = []
 # for doc_id in range(len(train_corpus)):
 for doc_idx, doc_label in enumerate(docLabels):
     inferred_vector = model.infer_vector(train_corpus[doc_idx].words)
+
+    inferredVectors[doc_idx] = inferred_vector
+
     sims = model.docvecs.most_similar([inferred_vector], topn=len(model.docvecs))
     rank = [docid for docid, sim in sims].index(doc_label)
     ranks.append(rank)
 
     second_ranks.append(sims[1])
+
+print inferredVectors
 
 print collections.Counter(ranks)  # Results vary due to random seeding and very small corpus
 
