@@ -5,6 +5,8 @@ from os import listdir
 import collections
 import smart_open
 import random
+import pdb
+import glob
 
 
 def read_corpus(doc_list, labels_list, tokens_only=False):
@@ -17,30 +19,56 @@ def read_corpus(doc_list, labels_list, tokens_only=False):
             # For training data, add tags
             yield gensim.models.doc2vec.TaggedDocument(words=gensim.utils.simple_preprocess(doc.read()), tags=[labels_list[idx]])
 
+pdb.set_trace()
 
+txt_glob = './Documents/**/*.txt'
+txt_files = glob.glob(txt_glob)
 
+data = []
 docLabels = []
-docLabels = [f for f in listdir("Documents") if f.endswith('.txt')]
+for f in range(len(txt_files)):
+    data.append(open(txt_files[f], "r"))
 
-a = ['quantumComputer.txt']
+    lab = txt_files[f].split("/")[3].split(".")[0]
+    docLabels.append(lab)
 
-labelToIndx = dict()
-for i, label in enumerate(docLabels):
-        labelToIndx[label] = i
+    # topic = txt_files[f].split("/")[2].lower()
+    # if topic == "arts":
+    #     labels.append(0)
+    # elif topic == "food":
+    #     labels.append(1)
+    # elif topic == "politics":
+    #     labels.append(2)
+    # elif topic == "tech":
+    #     labels.append(3)
 
-print labelToIndx[a[0]]
 
-print labelToIndx
+pdb.set_trace()
+
+# docLabels = []
+# docLabels = [f for f in listdir("Documents") if f.endswith('.txt')]
+#
+# a = ['quantumComputer.txt']
+#
+# labelToIndx = dict()
+# for i, label in enumerate(docLabels):
+#         labelToIndx[label] = i
+#
+# print labelToIndx[a[0]]
+#
+# print labelToIndx
 # print(docLabels)
 
 
-data = []
-for doc in docLabels:
-    data.append(open("Documents/" + doc, 'r'))
+
+# data = []
+# for doc in docLabels:
+#     data.append(open("Documents/" + doc, 'r'))
 
 train_corpus = list(read_corpus(data, docLabels))
 # test_corpus = list(read_corpus(data, docLabels, tokens_only=True))
 
+pdb.set_trace()
 # print(train_corpus[:2])
 # print(test_corpus[:2])
 
@@ -72,6 +100,8 @@ for doc_idx, doc_label in enumerate(docLabels):
     second_ranks.append(sims[1])
 
 print collections.Counter(ranks)  # Results vary due to random seeding and very small corpus
+
+pdb.set_trace()
 
 print sims[0][0]
 # print train_corpus
