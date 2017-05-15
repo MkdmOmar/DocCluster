@@ -27,7 +27,7 @@ def read_corpus(doc_list, labels_list, tokens_only=False):
 
 # pdb.set_trace()
 
-txt_glob = './Documents/**/*.txt'
+txt_glob = './Documents/**/**/*.txt'
 txt_files = glob.glob(txt_glob)
 
 
@@ -40,11 +40,12 @@ labels_txt = []  # Stores the text category of each document
 for f in range(len(txt_files)):
     data.append(open(txt_files[f], "r"))  # Add document text to data
 
-    lab = txt_files[f].split("/")[3].split(".")[0]
+    lab = txt_files[f].split("/")[4].split(".")[0]
     docLabels.append(lab)  # Add document name to docLabels
 
     # Append to labels and labels_txt
-    topic = txt_files[f].split("/")[2].lower()
+    topic = txt_files[f].split("/")[3].lower()
+
     if topic == "arts":
         labels.append(0)
         labels_txt.append("arts")
