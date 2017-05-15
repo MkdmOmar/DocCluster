@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 import gensim
-import os
-from os import listdir
 import collections
-import smart_open
-import random
 import pdb
 import glob
 import numpy as np
@@ -16,6 +12,8 @@ from sklearn.metrics import classification_report
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
+# Reads a document words list and document label list. Constructs a gensim
+# TaggedDocument object for each (doc words, doc label) tuple
 def read_corpus(doc_list, labels_list, tokens_only=False):
 
     for idx, doc in enumerate(doc_list):
@@ -26,21 +24,26 @@ def read_corpus(doc_list, labels_list, tokens_only=False):
             # For training data, add tags
             yield gensim.models.doc2vec.TaggedDocument(words=gensim.utils.simple_preprocess(doc.read()), tags=[labels_list[idx]])
 
+
 # pdb.set_trace()
 
 txt_glob = './Documents/**/*.txt'
 txt_files = glob.glob(txt_glob)
 
-data = []
-docLabels = []
-labels = []
-labels_txt = []
+
+data = []  # Stores words in each document
+docLabels = []  # Stores name of each document
+labels = []  # Stores the numerical category of each document
+labels_txt = []  # Stores the text category of each document
+
+# Iterate through all text files
 for f in range(len(txt_files)):
-    data.append(open(txt_files[f], "r"))
+    data.append(open(txt_files[f], "r"))  # Add document text to data
 
     lab = txt_files[f].split("/")[3].split(".")[0]
-    docLabels.append(lab)
+    docLabels.append(lab)  # Add document name to docLabels
 
+    # Append to labels and labels_txt
     topic = txt_files[f].split("/")[2].lower()
     if topic == "arts":
         labels.append(0)
@@ -55,53 +58,44 @@ for f in range(len(txt_files)):
         labels.append(3)
         labels_txt.append("tech")
 
-a = ['anneImhof']
+# Constructing index-to-label dictionary for efficient access to label later
 labelToIndx = dict()
 for i, label in enumerate(docLabels):
         labelToIndx[label] = i
 
-print('anneImhof has index ', labelToIndx[a[0]])
+# a = ['anneImhof']
+# print('anneImhof has index ', labelToIndx[a[0]])
 # print labelToIndx
 # print(docLabels)
 
 # pdb.set_trace()
 
-# docLabels = []
-# docLabels = [f for f in listdir("Documents") if f.endswith('.txt')]
-
-
-# data = []
-# for doc in docLabels:
-#     data.append(open("Documents/" + doc, 'r'))
-
+# Read corpus and get a list of gensim TaggedDocument objects
 train_corpus = list(read_corpus(data, docLabels))
+
 # test_corpus = list(read_corpus(data, docLabels, tokens_only=True))
 
 # pdb.set_trace()
-# print(train_corpus[:2])
-# print(test_corpus[:2])
 
+# Setting up the Doc2Vec model
 model = gensim.models.doc2vec.Doc2Vec(size=100, min_count=2, iter=200)
 
-model.build_vocab(train_corpus)
+model.build_vocab(train_corpus)  # Build model vocabulary
 
-print model.wv.vocab['and'].count
+# print model.wv.vocab['and'].count
 
-# print model.wv.vocab
-print
-
+# Train our doc2vec models
 model.train(train_corpus, total_examples=model.corpus_count, epochs=model.iter)
 
+# Getting the inferred Doc2Vec vector for this sample sentence (document)
 print model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
 
-# print model.infer_vector(['computer', 'supercomputer', 'quantum', 'program', 'this', 'that'])
 
-
+# Numpy array to store the inferred Doc2Vec vectors for each document
 inferredVectors = np.empty(shape=(len(docLabels), model.vector_size))
 
 ranks = []
 second_ranks = []
-# for doc_id in range(len(train_corpus)):
 for doc_idx, doc_label in enumerate(docLabels):
     inferred_vector = model.infer_vector(train_corpus[doc_idx].words)
 
@@ -113,7 +107,7 @@ for doc_idx, doc_label in enumerate(docLabels):
 
     second_ranks.append(sims[1])
 
-print inferredVectors
+# print inferredVectors
 
 print collections.Counter(ranks)  # Results vary due to random seeding and very small corpus
 
@@ -122,7 +116,7 @@ np.savetxt('inf_vecs.csv', inferredVectors, delimiter=",")
 np.savetxt('labels.csv', labels, delimiter=",")
 np.savetxt('labels_txt.csv', labels_txt, delimiter=",", fmt="%s")
 
-pdb.set_trace()
+# pdb.set_trace()
 
 ##########################
 ######## SVM Stuff #######
@@ -156,16 +150,8 @@ print(report)
 ########################
 ########################
 
-pdb.set_trace()
+# pdb.set_trace()
 
-print sims[0][0]
-# print train_corpus
-
-print sims[0][0]
-# for doc in train_corpus:
-#     if doc[1] == ['vanGogh.txt']:
-#         print doc[0]
-#         break
 
 print(u'Document ({}): «{}»\n'.format(doc_idx, ' '.join(train_corpus[doc_idx].words)))
 print(u'SIMILAR/DISSIMILAR DOCS PER MODEL %s:\n' % model)
