@@ -1,0 +1,70 @@
+Hackers are discovering that it is far more profitable to hold your data hostage than it is to steal it.
+
+A decade-old internet scourge called ransomware went mainstream on Friday when cybercriminals seized control of computers around the world, from the delivery giant FedEx in the United States to Britain’s public health system, universities in China and even Russia’s powerful Interior Ministry.
+
+On Saturday, investigators could not yet tell who was behind the attack as security experts around the world raced to contain it. Across Asia, several universities and organizations said they had been affected. Renault, the European automaker, said on Saturday that its French operations had been hit, while one of its plants in Slovakia was shut down because of the digital outbreak.
+
+Computer users in the United States so far were less affected after a 22-year-old British cybersecurity researcher inadvertently stopped the ransomware attack from spreading more widely.
+
+Ransomware is nothing new. For years, there have been stories of individuals or companies horrified that they have been locked out of their computers and that the only way back in is to pay a ransom to someone, somewhere who has managed to take control.
+
+But computer criminals are discovering that ransomware is the most effective way to make money in the shortest amount of time. The advent of new tools that wrap victims’ data with tough encryption technology, hard-to-trace digital currency like Bitcoin, and even online sites that offer to do the data ransoming in return for a piece of the action, have made this method of cybertheft much easier.
+
+“You don’t even need to have any skills to do this anymore,” said Jason Rebholz, a senior director at the Crypsis Group who has helped dozens of victims of ransomware.
+
+Ransomware has allowed people who are not computer experts to become computer thieves. It used to be that hackers had to be a little creative and skilled to get money out of people. There were fake antivirus scams that promised to clean up your computer — for a fee.
+
+Sometimes they resorted to so-called Trojan horse programs that lay in wait on e-commerce or banking sites, ready to get your credit card numbers. And there was old-fashioned hacking, grabbing all sorts of personal credentials that could be sold on the so-called dark web.
+
+Four years ago, investigators were pursuing roughly 16 variants of ransomware that were predominantly being used on victims in Eastern Europe. Now there are dozens of types of ransomware, and they are supported by an entire underground industry. And catching and convicting the people responsible is difficult.
+
+Friday’s attacks were a powerful escalation of earlier, much smaller episodes. Hackers exploited a vulnerability in Microsoft servers that was first discovered by the National Security Agency and then leaked online by a group of unknown hackers last month. It allowed the ransomware to spread from server to server, encrypting as many files as it could, and holding more than 70,000 organizations victim in the process.
+
+As of Saturday afternoon, several Bitcoin accounts associated with the ransomware had received the equivalent of $33,000, according to Elliptic, a firm that tracks online financial transactions involving virtual currencies. And the number could grow.
+
+The attack should not have been a shock. As data has become our lifeline, cybercriminals have elevated their game and their demands. Just five years ago, attackers in Eastern Europe were locking up victims’ computers and demanding ransoms of $100 to $400 to unlock them.
+
+Back then, the idea of paying a criminal on the internet was still foreign, and most important, technicians and security experts could find ways to unlock computers without caving on the ransom. In 2012, security experts estimated that less than 3 percent of victims paid.
+
+These days, it’s a 50-50 split between those who pay the ransom and those who refuse, either because they have adequate backups, are philosophically opposed or simply cannot afford to pay.
+
+Ransoms now range from as little as one Bitcoin, which equates to roughly $1,700, to as many as 30 Bitcoin, nearly $51,000, with the median ransom equating to four Bitcoin, or nearly $7,000, according to researchers at the Crypsis Group.
+
+
+
+A driving lesson on Saturday in Podolsk, outside Moscow. The issuing of drivers’ licenses in the region was halted because of Friday’s cyberattacks. Maxim Shipenkov/European Pressphoto Agency
+Bitcoin has given cybercriminals an easy and anonymous way to get their profits, and it is much harder to track than credit cards or wire transfers.
+
+There is even now a concept of “ransomware as a service” — a play on the Silicon Valley jargon “software as a service,” which describes the delivery of software over the internet.
+
+Now anyone can visit a web page, generate a ransomware file with the click of a mouse, encrypt someone’s systems and demand a ransom to restore access to the files. If the victim pays, the ransomware provider takes a cut of the payment.
+
+Ransomware criminals also have customer service lines that victims can call to get help paying a ransom. There are even live chat options. And while some amateur ransomware attackers may not restore victims’ data once the ransom is paid, the more professional outfits worry that if they do not decrypt a victim’s data, their reputation and “business” may suffer as a result, Mr. Rebholz said.
+
+The most notorious of these attackers, a group called SamSam after its type of ransomware, is known for demanding the highest ransoms, 25 to 30 Bitcoin. But they reliably decrypt a victim’s data after being paid.
+
+Most small- to medium-size businesses pay the ransoms because they do not have backups of their data and feel they have no other option, Mr. Rebholz said. “That data is the bloodline of their business in many cases,” he said. “They can either go out of business or pay the ransom.”
+
+Cybercriminals have also found a soft target in universities, which usually have more open systems that allow for the free flow of information.
+
+More recently, they have found a niche in health care, where ransomware attacks take on a new level of urgency as doctors and emergency rooms in Britain discovered on Friday when hackers blocked their access to patient records, and patients had to be turned away.
+
+Imperial College Healthcare in London, for example, was hit with ransomware 19 times over 12 months, according to freedom-of-information requests submitted by SentinelOne, a security firm.
+
+In the United States, the number of reported ransomware attacks rose fourfold between 2015 and 2016, as did the ransom payments to hackers, to $1 billion, according to the Federal Bureau of Investigation.
+
+Last year hospitals in California, Indiana, Kentucky, Maryland and Texas were hit with ransomware. And in February, a Los Angeles hospital paid $17,000 to hackers to regain access to its computers.
+
+On Wednesday, Dr. Krishna Chinthapalli published an article in the British Medical Journal warning that such an attack was imminent. Dr. Chinthapalli cited a report that one out of every three British National Health Service trusts, the health care providers that serve specific geographic regions or offer specialized mental health or ambulance services, were hit by ransomware last year.
+
+“In the past three months, health care providers have been preparing themselves for these attacks, either with Bitcoin at the ready or with professional incident responders,” said Chris Camacho, the chief strategy officer at Flashpoint, a New York company that tracked Friday’s attacks.
+
+Nearly half of ransomware attacks begin by persuading an employee to click on an email. Sometimes the methods used by cybercriminals are more complex. A “watering hole attack,” for example, infects a website with ransomware code. When users visit the site, that code is downloaded onto their machine.
+
+The other half, Mr. Rebholz and others said, target victims with “brute force” methods: Hackers scan an organization for software vulnerabilities, weak passwords or other unlocked digital doors. After that, ransomware attackers try to encrypt as many files as possible. The SamSam group is known to move from file to file, manually encrypting hundreds of systems, so it can demand the highest in Bitcoin ransoms, according to the Crypsis Group, Symantec and others.
+
+It seems no one is immune. In January, a hacker held hostage a small cancer charity in Indiana, wiping the organization’s main and backup servers and demanding 50 Bitcoin — more than $87,000 — in return for restoring their data. They did not pay.
+
+And ransomware attackers are not above playing martyr. In one recent attack that Mr. Rebholz tracked, the attackers tried to convince their victim that paying a “contribution” — or ransom — would benefit sick children around the world.
+
+“That’s where we are,” Mr. Rebholz said. “Threat actors are now trying to play people’s emotions, trying to put a pretty face on criminal activity by pretending to be a charity case.”

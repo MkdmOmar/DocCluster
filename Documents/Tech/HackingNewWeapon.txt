@@ -1,0 +1,38 @@
+Hackers in Vietnam have been attacking foreign companies and other targets for years, seeking information and using tactics that suggest links to the Vietnamese government, a cybersecurity company said Monday.
+
+The findings, laid out in a report released by the company, FireEye, come as companies and experts look beyond traditional sources of attacks like China and Russia to deal with new or rising threats. Smaller countries are now trying their hand at hacking, experts say, as they seek to follow dissidents, undermine enemies or comb corporate files for trade secrets.
+
+FireEye, a company based in California that deals with large network breaches, said it had watched a Vietnamese group known as OceanLotus target foreign companies in the manufacturing, hospitality and consumer products sectors since at least 2014. While identifying hackers or the governments that might back them can be difficult, FireEye said OceanLotus had used tactics similar to those in attacks previously identified by experts as having targeted Vietnamese dissidents, journalists and governments at odds with the country.
+
+The OceanLotus group “accessed personnel details and other data from multiple victim organizations that would be of very little use to any party other than the Vietnamese government,” said Nick Carr, a security expert at FireEye and the primary author of the report.
+
+Le Thi Thu Hang, a spokeswoman for the Vietnamese Foreign Ministry, called the findings of the report “groundless” and said the country looked forward to working internationally to fight digital breaches. Vietnam “does not allow cyberattacks on organizations or individuals,” she said in an emailed statement. “All cyberattacks or threats to cybersecurity must be condemned and severely punished in accordance with regulations and law.”
+
+FireEye experts said OceanLotus was the first of 32 state-linked hacking groups it had identified worldwide that was neither Russian nor Chinese.
+
+State-sponsored hacking is “the new way to do espionage in the 21st century because it’s much easier to resource compared to a human operation,” said Tim Wellsmore, FireEye’s Asia director of threat intelligence. “This is a low-cost, high-return model.”
+
+Plainclothes security forces in Vietnam, a one-party authoritarian state, regularly spy on journalists, activists and political dissidents, sometimes in almost comically obvious ways — tailing them by motorbike, for example, or eavesdropping in a cafe. Activists in the Vietnamese diaspora have also reported being targeted by what they say is state-sponsored hacking.
+
+
+
+FireEye, a company that deals with large network breaches, said it had watched a Vietnamese group known as OceanLotus target foreign companies since at least 2014. Beck Diefenbach/Reuters
+In a 2014 blog post, the Electronic Frontier Foundation, a nonprofit advocacy group in California, documented what it said appeared to be a state-affiliated Vietnamese hacking operation that had targeted a range of people critical of the government, including an Associated Press reporter in Vietnam and a pro-democracy blogger in California. FireEye said OceanLotus employed a similar type of email phishing, using messages to bait victims into downloading malicious software or turning over their user names and passwords.
+
+The report also documented the group’s hacking of companies from Vietnam, China, Germany, the Philippines, Britain and the United States. It did not analyze specific breaches in detail, but it said one European manufacturing company had been compromised in 2014 before building a factory in Vietnam. It also said that OceanLotus malware had been detected last year on the network of a global hospitality developer that was planning to expand into the country.
+
+Ben Wootliff, who oversees digital security at the business consultancy Control Risks, said online crime was a risk for local and international companies in Vietnam for a number of reasons, including a rapid pace of digitalization and an improvisational business environment. “There is a lack of desire, awareness and capability to implement decent cyberhygiene,” he said.
+
+The European Chamber of Commerce in Vietnam and the American Chamber of Commerce in Hanoi said hacking was a growing problem for businesses in the country.
+
+“More and more companies have to hire experts and train the staff to understand the security risks that are part of their everyday working routine,” said Amanuel Flobbe, the chairman of the Information and Communications Technology Sector Committee at the European Chamber of Commerce in Vietnam.
+
+Digital security experts say private-sector cybercriminals or activists are responsible for much of the hacking in Southeast Asia. But FireEye said OceanLotus was notable because it appeared to be state-sponsored and used some unique malware that was not commercially available.
+
+By nature asymmetrical, hacking is a natural outlet for smaller countries to confront larger rivals. OceanLotus, for example, has attacked corporate and government entities in China that were focused mostly on oceanic development and fishing, according to a report by the Chinese internet security company Qihoo 360. That may indicate that Vietnam was seeking to learn more about Chinese plans in the South China Sea, where the two countries have disputes over islands and reefs.
+
+The proliferation of government- and military-run hacking in developing countries also raises a broader prospect of what rules should apply to cyberconflicts. This year, the president of Microsoft, Brad Smith, called for a digital Geneva Convention to push back against a raft of political hackings that have targeted elections in the United States and Europe. Reports on other hacking efforts, like United States officials’ targeting of North Korea’s nuclear program and North Korean hackers’ attacks on Sony Pictures, have also heightened concerns.
+
+Mr. Wellsmore said state-sponsored hacking groups in Asia were increasingly using multimillion-dollar tools to achieve their goals.
+
+“That sort of level of sophistication is generally nation-state-sponsored,” he said, “because they’re the ones that have that strategic interest and are willing to invest that sort of money.”

@@ -1,0 +1,52 @@
+Russia was again at the center of a global hacking scandal when computer systems the world over were frozen this weekend by a variant of malicious software known as WannaCry. But this time, Russians were among the victims of the attack, not suspected of being the perpetrators.
+
+In fact, of all the countries afflicted in the first wave of the spread of the malicious software, Russia was hit the hardest: The virus tried to infect more computers in Russia than anywhere else, according to an analysis by Kaspersky Lab, a Russian antivirus company.
+
+While government computers were crashing, banks, cellphone operators and railroads in Russia were fending off attacks designed to freeze their systems in demand for ransoms to unlock the data.
+
+Now on the business end of a cyberattack, Russian officials were quick to voice outrage.
+
+“Humanity is dealing here with cyberterrorism,” said Frants Klintsevich, the deputy chairman of the Russian Senate’s defense committee, according to the state-run Tass news agency. “It’s an alarming signal, and not just a signal but a direct threat to the normal functioning of society, and important life-support systems.”
+
+Computer researchers have yet to determine the origin of the “ransomware” attack, but Mr. Klintsevich said the hackers’ intended targets were global.
+
+“I cannot exclude that the main task consists now of frightening the whole world,” he said. “The attacks hit hospitals, railroad transport and police. Over these days, the world got a serious warning.”
+
+
+
+A MegaFon phone store in Moscow on Saturday. Cellphone operators in Russia have been fending off attacks designed to freeze their systems in demand for ransoms to unlock the data. Ivan Sekretarev/Associated Press
+The malicious software, or malware, was apparently stolen from the National Security Agency’s arsenal of cyberweapons and put to use by unknown hackers. It began proliferating quickly on Friday, and by Sunday, the attack had afflicted 200,000 computers in more than 150 countries, according to Europol, the European Union’s police agency.
+
+The attack was among the highest-profile computer intrusions since security experts and American intelligence agencies accused hackers acting on behalf of the Russian government of trying to influence the outcome of the 2016 American presidential election and the recent presidential election in France.
+
+Russian officials deny that they were involved in breaching servers of the Democratic National Committee or of other political operatives in an effort to help elect Donald J. Trump last year. And they have denied culpability for efforts this month to expose private data stolen from the campaign of Emmanuel Macron in France.
+
+Hacking — far from an exclusive trick of the Russians — is a global scourge, Russian officials have said, and the ransomware attack became a painful illustration of their point.
+
+The malware was based on a program developed by the N.S.A. and stolen in a breach of the United States government’s servers. The version of the program used to demand ransoms from the operators of frozen computer systems exploits vulnerabilities in older and unlicensed versions of Microsoft Windows, used widely in Russia, that did not have security patches.
+
+On Friday, Russia’s Interior Ministry reported attacks on about 1,000 computers using the Windows operating system, but said the computers had been isolated from ministry networks.
+
+A spokeswoman for the ministry, Irina Volk, told Russian news agencies that key servers had been unaffected because they were running domestic software, including a little-known operating system called Elbrus, first developed in the late Soviet period.
+
+
+Animated Map of How Tens of Thousands of Computers Were Infected With Ransomware
+A new strain of ransomware spread rapidly around the world on Friday.
+
+
+
+Russian cybercriminals were among the pioneers of ransomware, although there is no evidence linking them to the latest WannaCry attack.
+
+In recent years, a prominent Russian malware system called Gameover Zeus, which had been used for bank thefts and government espionage, also distributed a particularly ruthless ransomware program called Cryptolocker.
+
+In December, the Obama administration imposed sanctions on the Russian hacker associated with Gameover Zeus, Evgeniy M. Bogachev, who is also wanted by the F.B.I. in connection with cybercrimes including bank fraud, money laundering and identity theft.
+
+Mikhail Delyagin, the director of the Institute of Problems of Globalization in Russia, said he suspected the United States government was behind the WannaCry attack, saying it could be the retaliation the Americans threatened against Russia for its hacking efforts last year.
+
+“I respect the honesty of the United States,” he said. “They threaten us with a cyberattack, and a cyberattack follows. It’s logical.”
+
+Still, prominent Russian computer researchers have refrained from blaming the United States, although the malicious software originated with the N.S.A.
+
+“Special state cyberforces evidently would not exercise such a stupid attack,” Igor Ashmanov, a member of the Council for Digital Economy, a government advisory body, said in an interview. Any government-backed attack on Russian institutions would be considered an act of war, he said.
+
+And this time, he said, “of course it wasn’t Russian hackers,” given that Russia appeared to be a main target.
