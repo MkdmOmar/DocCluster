@@ -1,0 +1,36 @@
+Cassini's 'Grand Finale' Dives Could Show How Quickly Saturn's Rings Will Fade
+
+By Elizabeth Howell, Seeker |  May 9, 2017 11:53am ET
+Cassini's 'Grand Finale' Dives Could Show How Quickly Saturn's Rings Will Fade
+During its first ring dive, Cassini got closer than ever to the mysterious hexagon storm at Saturn's north pole, seen here in a 2014 image from the spacecraft.
+Credit: NASA/JPL-Caltech/Space Science Institute
+While we've known about the beautiful features of Saturn's rings for more than 400 years, the history of them and their fate remain an enigma.
+
+A new paper published in the journal Icarus postulates that Saturn's rings will last roughly 1 billion years, which contradicts other views that the features will fade away in less than 100 million years. The recent finding is based on 2004 Cassini data showing a low number of negatively charged electrons in the central "B" ring of Saturn, the densest part of the rings — but more information will come shortly as Cassini looks closer at the rings.
+
+Electrons are an indication of erosion within the rings. When the twin Voyager spacecraft flew by Saturn in 1980 and 1981, studies suggested there was enhanced plasma over the rings resulting from meteors coming from outside the Saturn system impacting the rings - creating plasma and gas release upon impact with ring material. This phenomenon, scientists theorized, peaked over the B-ring. However, Cassini's observations showed little evidence of plasma linked to impacts.
+
+In the coming weeks, the spacecraft will get a better look at the rings. Cassini is now on a series of dives between Saturn’s rings and the planet’s upper atmosphere. Lead author William Farrell, a plasma physicist at NASA’s Goddard Space Flight Center, said he is looking forward to the data when Cassini crosses Saturn's magnetic field lines during the dives.
+
+"We can use the Cassini Radio and Plasma Wave System (RPWS) to study the plasma (ionized gases) throughout the magnetosphere and especially over the ring," Farrell said in an e-mail.
+
+"The plasma actually stays trapped on the dipole magnetic field lines, bouncing up and down the field lines,” he continued. “In our case, the plasma over the rings will remain trapped between the rings and the magnetic footprint back near the Saturn cloud tops. So, one can sense ring-related plasma by being over the rings, or located on magnetic fields lines that connect back to the rings."
+
+RELATED: Cassini Makes Second Saturn Ring Dive as NASA Studies Unexpected Emptiness
+
+Farrell added that scientists will be able to directly test the Voyager-era theory against that of Cassini. If they see a lot of meteoric bombardment during the times Cassini crosses the magnetic field lines, they should see more plasma on the B-field lines connecting back to the center B ring — meaning that the rings are eroding more quickly. However, if they see low plasma density, this would mean there is not a lot of meteorite collisions in that zone, which means that the rings erode more slowly, and will last longer.
+
+The methodology for the experiment uses "tones" of naturally emitted plasma waves, which effectively "broadcast" the local density to the spacecraft, Farrell said.
+
+"The radio and associated 'spectrograms' are then our primary tool to search for these tones . . . imagine taking your car radio with many tens of channels and simply scanning each channel moving progressively increasing in frequency," Farrell said.
+
+"In effect,” he added, “that is what these radios do, and we can then plot the intensity (color coded) as a function of frequency and scan sequence (or time) in the spectrograms ... and in doing so, these different plasma waves like auroral hiss and the electron plasma frequency become apparent."
+
+After 13 years in Saturn's system, Cassini will conduct a series of ring dives until September, when it will plunge into Saturn's atmosphere and into oblivion in order to avoid the small chance of crashing into a potentially habitable moon, like Titan or Enceladus.
+
+RELATED: Cassini Reveals Breathtaking New Views of Saturn's Beautifully Complex Rings
+
+For Farrell, the mission has taken up much of his career. His thesis adviser was Don Gurnett, the principal investigator for the RPWS instrument in 1987. Farrell joined the team in 1989 when he moved to Goddard; at the time, the team was recruiting "early career" scientists who could see Cassini through to its end.
+
+Farrell also supported the Voyager 2 encounter with Neptune in 1989, and studies plasma phenomena in other places — think lightning on Earth and other planets, dust storms on Mars, and plasma physics on the famous geyser-spouting Enceladus.
+

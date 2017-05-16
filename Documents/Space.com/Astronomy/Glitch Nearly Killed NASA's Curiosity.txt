@@ -1,0 +1,31 @@
+A Glitch Nearly Killed NASA's Curiosity Rover After 6 Months on Mars
+
+By Mike Wall, Space.com Senior Writer |  May 15, 2017 12:08pm ET
+The Mars rover Curiosity's groundbreaking mission came within an hour of ending just six months after touchdown, according to a report that aired last night (May 14) on the TV news show "60 Minutes." 
+
+In February 2013, a memory problem with Curiosity's main computer, also known as the pilot, forced mission team members to switch to the identical backup computer, or co-pilot. The swap worked, and the car-size robot resumed full science operations a few weeks later.
+
+But the computer issue was far scarier than this breezy recap would suggest, according to the "60 Minutes" segment on CBS. [Amazing Mars Rover Curiosity's Latest Photos]
+
+The pilot was supposed to recognize the problem on its own and cede control to the co-pilot automatically, said Rob Manning, chief engineer at NASA's Jet Propulsion Laboratory in Pasadena, California, which manages Curiosity's mission. This didn't happen, however; the pilot acted like it had developed "an attitude," Manning told "60 Minutes" reporter Bill Whitaker.
+
+"When we told it to go take a nap, it refused to take a nap," Manning said. "Then it refused to take pictures. Then it refused to do more science throughout the day. It just stopped doing these things. And we said, 'What the heck is going on?'
+
+"Time is running out, because in an hour it's going to turn its radio off and stay off forever, and we'll lose this very expensive rover," he added. (The total cost of Curiosity's mission is about $2.5 billion, NASA officials have said.)
+
+So Curiosity's handlers beamed a command to shut down the pilot, figuring that the co-pilot would then take over.
+
+"We're waiting for the co-pilot to wake up and then turn on its radio to let us know that it was alive," Manning told Whitaker. "We should get a signal. Nothing. Another minute goes by. Nothing. Four minutes go by. Now we're starting to get really worried that maybe — "
+
+"Sounds like a movie," Whitaker interjected.
+
+"It really was," Manning said. "Yeah, it was getting nerve-wracking. And bing, there was the signal. And the backup pilot was obviously in charge."
+
+The backup remains in charge to this day, though engineers have managed to fix the pilot, Manning said.
+
+Curiosity touched down inside the 96-mile-wide (154 kilometers) Gale Crater on the night of Aug. 5, 2012, tasked with determining if the area has ever been capable of supporting microbial life. 
+
+
+The rover's work near its landing site allowed mission researchers to announce, in March 2013, that Gale Crater was indeed habitable billions of years ago. Further observations by Curiosity have revealed that the crater harbored lake-and-stream systems that persisted for long stretches in the ancient past — perhaps millions of years at a time.
+
+Since September 2014, Curiosity has been exploring the foothills of Mount Sharp, which rises more than 3 miles (5 km) into the Martian sky from Gale's center. The rover is reading the rock layers as it climbs, looking for clues about how, why and when Mars transitioned from a relatively warm and wet world to the cold and dry planet it is today.

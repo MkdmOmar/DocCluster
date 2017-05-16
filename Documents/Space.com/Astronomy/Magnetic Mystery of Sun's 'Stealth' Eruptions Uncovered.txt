@@ -1,0 +1,29 @@
+Not So Fast: Magnetic Mystery of Sun's 'Stealth' Eruptions Uncovered
+
+By Ian O'Neill, Space.com Contributor |  May 10, 2017 06:30am ET
+Solar astronomers have uncovered the magnetic secrets behind one of the sun's most mysterious eruptions: a coronal mass ejection that seems to come from nowhere.
+
+Coronal mass ejections, or CMEs, are the most impressive solar explosions. Deep within the corona (the sun's superheated atmosphere), extremely stressed magnetic fields may become unstable and erupt, sending huge bubbles of magnetized plasma into space.
+
+If CMEs are aimed at Earth, they can have dramatic effects on the planet, boosting the radiation environment of interplanetary space and triggering geomagnetic storms. It's for this reason that space-weather forecasters track and try to predict the magnetic conditions in the lower corona. [The Sun's Wrath: Worst Solar Storms in History]
+
+CMEs are often associated with sunspots and active regions, patches of the sun's photosphere where the internal magnetism erupts into the corona. And bright magnetic disturbances like solar flares usually precede the explosions. Sometimes, however, the sun produces a sly CME that has no relationship with active regions or any previous flaring activity; it appears to come from nowhere. The driving mechanism behind these so-called "stealth CMEs" has been a mystery — until now.
+
+
+Using data from NASA's STEREO spacecraft and the NASA/European Space Agency Solar and Heliospheric Observatory (SOHO), an international team of researchers has developed a model that simulates the evolution of these mysterious eruptions, NASA officials wrote in a statement.
+
+When compared to regular CMEs, which can shoot from the sun at incredible speeds (up to 6.5 million mph, or 10.5 million km/h), stealth CMEs are slow. They travel away from the sun at between 900,000 mph and 1.6 million mph (1.45 million km/h to 2.6 million km/h), roughly the same speed as the solar wind. 
+
+This simulations shows the evolution of a "stealth CME." Differential rotation creates a twisted mass of magnetic fields on the sun, which then pinches off and speeds out into space. The image of the sun is from NASA’s STEREO spacecraft. Colored lines depict magnetic field lines, and the different colors indicate in which layers of the sun’s atmosphere they originate. The white lines become stressed and form a coil, eventually erupting from the sun.
+This simulations shows the evolution of a "stealth CME." Differential rotation creates a twisted mass of magnetic fields on the sun, which then pinches off and speeds out into space. The image of the sun is from NASA’s STEREO spacecraft. Colored lines depict magnetic field lines, and the different colors indicate in which layers of the sun’s atmosphere they originate. The white lines become stressed and form a coil, eventually erupting from the sun.
+Credit: NASA’s Goddard Space Flight Center/ARMS/Joy Ng, producer
+The sun's equator rotates faster than its poles, a situation known as "differential rotation." In addition, the sun is a magnetic body, with magnetism produced in the lower layers and field lines popping through the photosphere and traveling out into space. So, the star's differential rotation greatly influences its magnetic field.
+
+The researchers simulated the magnetic field lines that reach high into the corona and found that, because of this differential rotation, the lines eventually twist and cross one another, creating magnetic knots, like elastic bands being stretched and slowly twisted. With huge amounts of magnetic energy causing these lines to knot, they eventually pinch off (via a mechanism known as magnetic reconnection), and a "stealth" CME is quietly launched. The researchers said that enough energy is produced roughly every two weeks in the sun's atmosphere to produce stealth CMEs.
+
+This all happens without any dramatic eruption or solar flare — just twisted magnetic field lines that pinch off and carry magnetic bubbles of plasma out of the corona, the researchers said.
+
+Understanding how CMEs are generated is of great importance to space-weather forecasters. When these bubbles of magnetized plasma collide with Earth's magnetosphere, they can spawn powerful geomagnetic storms with the potential to seriously affect today's high-tech society. Such storms can knock power grids off-line, for example, potentially causing massive economic damage. 
+
+The new study was published in the Journal of Geophysical Research.
+

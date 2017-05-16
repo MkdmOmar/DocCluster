@@ -1,0 +1,41 @@
+Dark Matter Probe on Space Station to Be Revitalized
+
+By Irene Klotz, Space.com Contributor |  May 11, 2017 04:32pm ET
+Dark Matter Probe on Space Station to Be Revitalized
+The Alpha Magnetic Spectrometer has measured cosmic rays streaming toward Earth since 2011, searching for evidence of distant dark matter.
+Credit: NASA
+CAPE CANAVERAL, Fla. — After six years in space, the Alpha Magnetic Spectrometer (AMS), a sensitive particle detector aboard the International Space Station, is being prepared for a cooling system retrofit to keep the instrument operational until the station's retirement in 2024 or beyond. 
+
+Station commander Peggy Whitson and newly arrived rookie flight-engineer Jack Fischer, both with NASA, will kick off preliminary work on the $2 billion, 8.5-ton (77 metric tons) science instrument on a spacewalk tomorrow (May 12). 
+
+During their spacewalk, which is scheduled to last 6.5 hours, the astronauts plan to install a cable so engineers can test a data circuit in the AMS. The instrument was installed outside the station during the final flight of space shuttle Endeavour, in May 2011. [Photos: AMS Hunts Exotic Particles in Space]
+
+
+AMS is designed to study cosmic rays for signs of dark matter being annihilated in space. 
+
+Unlike regular matter, which emits or interacts with electromagnetic radiation, dark matter has never been observed directly. The existence of dark matter is inferred through its gravitational effects on visible matter. 
+
+Current theories suggest dark matter may account for 85 percent of all the matter in the universe. 
+
+So far, AMS has tracked more than 100 billion cosmic ray hits in its detectors, AMS lead scientist Samuel Ting, a Nobel laureate with the Massachusetts Institute of Technology, said in an interview with Space.com. 
+
+"We have measured an excess of positrons [the antimatter counterpart to an electron], and this excess can come from dark matter. But at this moment, we still need more data to make sure it is from dark matter and not from some strange astrophysics sources," Ting said. "That will require us to run a few more years."
+
+AMS has also been measuring energy spectrums of helium, lithium, boron, carbon and other elements that fly toward Earth as cosmic rays. 
+
+"None of the energy distributions agree with theoretical predictions — by a huge amount," Ting said. "Not a single one agrees. That's how little we know."
+
+To keep AMS operational through the lifetime of the station, NASA plans to replace the device's cooling pumps next year, Ting said. 
+
+Two of AMS' four cooling pumps have failed, Ting said, though the particle detector needs just one pump to operate.
+
+"In talking with NASA, we decided that since we will be there for the lifetime of the station, it would be prudent to replace with new pumps," Ting said. "This will be done sometime next year."
+
+The pumps are part of a liquid carbon-dioxide cooling system that dissipates heat from the AMS as the station orbits in and out of sunlight. 
+
+The cable being installed during Friday's spacewalk will test a system that reads out engineering data from the device.
+
+"We want to check if the readout system is still there. It's more or less an assurance check [to] make sure the communications will be there," Ting said. 
+
+Friday's spacewalk, which is scheduled to begin at 8 a.m. EDT (1200 GMT), will be the 200th devoted to station assembly and maintenance since construction of the outpost began in 1998.
+

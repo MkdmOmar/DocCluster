@@ -1,0 +1,61 @@
+Students Design Ways to Mine the Moon for Rocket Fuel
+
+By Gary Li, University of California, Los Angeles; Danielle DeLatte, University of Tokyo; Jerome Gilleron, Georgia Institute of Technology; Samuel Wald, Massachusetts Institute of Technology; Therese Jones, Pardee RAND Graduate School |  May 15, 2017 04:46pm ET
+This article was originally published at The Conversation. The publication contributed the article to Live Science's Expert Voices: Op-Ed & Insights.
+
+Forty-five years have passed since humans last set foot on an extraterrestrial body. Now, the moon is back at the center of efforts not only to explore space, but to create a permanent, independent space-faring society.
+
+Planning expeditions to Earth's nearest celestial neighbor is no longer just a NASA effort, though the U.S. space agency has plans for a moon-orbiting space station that would serve as a staging ground for Mars missions in the early 2030s. The United Launch Alliance, a joint venture between Lockheed Martin and Boeing, is planning a lunar fueling station for spacecraft, capable of supporting 1,000 people living in space within 30 years.
+
+Billionaires Elon Musk, Jeff Bezos and Robert Bigelow all have companies aiming to deliver people or goods to the moon. Several teams competing for a share of Google's US$30 million cash prize are planning to launch rovers to the moon.
+
+We and 27 other students from around the world recently participated in the 2017 Caltech Space Challenge, proposing designs of what a lunar launch and supply station for deep space missions might look like, and how it would work.
+
+The raw materials for rocket fuel
+
+Right now all space missions are based on, and launched from, Earth. But Earth's gravitational pull is strong. To get into orbit, a rocket has to be traveling 11 kilometers a second – 25,000 miles per hour!
+
+Any rocket leaving Earth has to carry all the fuel it will ever use to get to its destination and, if needed, back again. That fuel is heavy – and getting it moving at such high speeds takes a lot of energy. If we could refuel in orbit, that launch energy could lift more people or cargo or scientific equipment into orbit. Then the spacecraft could refuel in space, where Earth's gravity is less powerful.
+
+The moon has one-sixth the gravity of Earth, which makes it an attractive alternative base. The moon also has ice, which we already know how to process into a hydrogen-oxygen propellant that we use in many modern rockets.
+
+Roving Luna
+
+NASA's Lunar Reconnaissance Orbiter and Lunar Crater Observation and Sensing Satellite missions have already found substantial amounts of ice in permanently shadowed craters on the moon.
+
+Those locations would be tricky to mine because they are colder and offer no sunlight to power roving vehicles. However, we could install big mirrors on the craters' rims to illuminate solar panels in the permanently shadowed regions.
+
+Rovers from Google's Lunar X Prize competition and NASA's Lunar Resource Prospector, set to launch in 2020, would also contribute to finding good locations to mine ice.
+
+Imagining a moon base
+
+Depending on where the best ice reserves are, we might need to build several small robotic moon bases. Each one would mine ice, manufacture liquid propellant and transfer it to passing spacecraft. Our team developed plans to accomplish those tasks with three different types of rovers. Our plans also require a few small robotic shuttles to meet up with nearby deep-space mission vehicles in lunar orbit.
+
+One rover, which we call the Prospector, would explore the moon and find ice-bearing locations. A second rover, the Constructor, would follow along behind, building a launch pad and packing down roadways to ease movements for the third rover type, the Miners, which actually collect the ice and deliver it to nearby storage tanks and an electrolysis processing plant that splits water into hydrogen and oxygen.
+
+The Constructor would also build a landing pad where the small near-moon transport spacecraft we call Lunar Resupply Shuttles would arrive to collect fuel for delivery as newly launched spacecraft pass by the moon. The shuttles would burn moon-made fuel and would have advanced guidance and navigation systems to travel between lunar bases and their target spacecraft.
+
+A gas station in space
+
+When enough fuel is being produced, and the shuttle delivery system is tested and reliable, our plan calls for building a gas station in space. The shuttles would deliver ice directly to the orbiting fuel depot, where it would be processed into fuel and where rockets heading to Mars or elsewhere could dock to top up.
+
+The depot would have large solar arrays powering an electrolysis module for melting the ice and then turning the water into fuel, and large fuel tanks to store what's made. NASA is already working on most of the technology needed for a depot like this, including docking and fuel transfer. We anticipate a working depot could be ready in the early 2030s, just in time for the first human missions to Mars.
+
+To be most useful and efficient, the depot should be located in a stable orbit relatively near both the Earth and the moon. The Earth-moon Lagrangian Point 1 (L1) is a point in space about 85 percent of the way from Earth to the moon, where the force of Earth's gravity would exactly equal the force of the moon's gravity pulling in the other direction. It's the perfect pit stop for a spacecraft on its way to Mars or the outer planets.
+
+Leaving Earth
+
+Our team also found a fuel-efficient way to get spacecraft from Earth orbit to the depot at L1, requiring even less launch fuel and freeing up more lift energy for cargo items. First, the spacecraft would launch from Earth into Low Earth Orbit with an empty propellant tank.
+
+Then, the spacecraft and its cargo could be towed from Low Earth Orbit to the depot at L1 using a solar electric propulsion tug, a spacecraft largely propelled by solar-powered electric thrusters.
+
+This would let us triple the payload delivery to Mars. At present, a human Mars mission is estimated to cost as much as US$100 billion, and will need hundreds of tons of cargo. Delivering more cargo from Earth to Mars with fewer rocket launches would save billions of dollars and years of time.
+
+A base for space exploration
+
+Building a gas station between Earth and the moon would also reduce costs for missions beyond Mars. NASA is looking for extraterrestrial life on the moons of Saturn and Jupiter. Future spacecraft could carry much more cargo if they could refuel in space – who knows what scientific discoveries sending large exploration vehicles to these moons could enable?
+
+By helping us escape both Earth's gravity and dependence on its resources, a lunar gas station could be the first small step toward the giant leap into making humanity an interplanetary civilization.
+
+Gary Li, Ph.D. Candidate in Mechanical and Aerospace Engineering, University of California, Los Angeles; Danielle DeLatte, Ph.D. Student in Aeronautics & Astronautics, University of Tokyo; Jerome Gilleron, Ph.D. Candidate in Aerospace Engineering, Georgia Institute of Technology; Samuel Wald, Ph.D. Student in Aeronautics and Astronautics, Massachusetts Institute of Technology, and Therese Jones, Ph.D. Candidate in Public Policy, Pardee RAND Graduate School
+

@@ -1,0 +1,35 @@
+Wild Stratospheric Balloon Ride Shows No Link Between Auroras and Radiation Flux
+
+By Elizabeth Howell, Seeker |  May 12, 2017 05:21pm ET
+Wild Stratospheric Balloon Ride Shows No Link Between Auroras and Radiation Flux
+Aurora borealis.
+Credit: Soerfm/wikipedia, CC BY-SA
+An incredible flight in March 2017 set out to see if there is any correlation between auroras over Fairbanks, Alaska, and radiation flux in the stratosphere. While the team behind the autonomous stratospheric balloon ride couldn't establish a link, they came away from the experience with plenty of stories to tell — a lost balloon, an airplane search, and a six-mile, one-way hike to rescue their data.
+
+Auroras occur when electrically charged electrons and protons collide with the more neutral atoms in our upper atmosphere, according to NASA. Auroras are more frequently observed from the extreme northern and southern latitudes because that's where magnetic field lines — which attract the charged particles — tend to converge.
+
+Stunning video from the peak of the balloon's 90-minute flight show tendrils of the northern lights stretching from horizon to horizon, principally in green, but also showing shades of orange, purple, and blue. The balloon, launched by Night Crew Labs, reached a peak altitude of 78,254 feet during its final flight before bursting as planned.
+
+As the team explains, radiation flux increases with altitude because the particles passing through thinner layers of atmosphere. However, most radiation measured by the balloon's Geiger counter showed higher levels of secondary particles that are created after the sun's particles collide with the atmosphere.
+
+"As the altitude increases, the likelihood of collisions with the neutral atoms decreases, leading to a decrease in the population of secondary particles," the team wrote.
+
+"These two competing factors give rise to the observed radiation profile [during the flight],” the team’s analysis continues. “During the first 40 minutes, the opacity of the atmosphere dominates, leading to a steady increase in the radiation levels. After ~19 kilometers, the reduction in the flux of secondary particles is the dominating factor, leading to a decrease in the overall measured flux."
+
+
+The team was trying to figure out if auroras are correlated with more flux as the balloon altitude levels, and if it is more predominant in one direction. However, they were unable to establish a link. They speculated that perhaps the experiment setup was not good enough, which included the sensitivity of the Geiger counter and the fact that the balloon's rotation wasn’t controlled.
+
+"In the future, it would be useful to carry out similar measurements with scintillation detectors with a controlled aperture and directionality," the team wrote. "We would also like to carry out measurements under conditions of low auroral activity to estimate the level of enhancement measured during our balloon mission in Alaska."
+
+The recovery of their data was much more difficult than the team expected. The first two flights of the three-flight campaign had gone smoothly, with GPS indicating where the balloons landed. Luckily, both previous flights, which occurred during the day, touched down within a half-mile of nearby roads, making it a relatively easy snowshoe hike to recover the gear.
+
+That wasn't the case for the third flight, which took place at night to capture the aurora visually. Shortly after launch, the team explained in a separate video detailing the search and rescue that they lost contact with the balloon's two tracking systems. While that was expected — the day was overcast, and clouds caused a signal loss on the two previous flights — other challenges arose.
+
+RELATED: Stunning Aurora Seen Over Jupiter
+
+"We were dismayed to see that our satellite link wasn’t working either," the team wrote. "It turned out that the larger and more metallic night equipment blocked the signal to the satellites due to our antenna placement. At such a high latitude, the Globalstar satellites we rely upon can be low on the horizon, making signal acquisition even more of a challenge."
+
+The team had to wait until daylight to launch a rescue. Using a small plane, the team swept the nearby hilly terrain for a signal and found the balloon snagged in trees about 6 miles from the nearest trailhead. The members debated whether to wait for the next day, or to take advantage of the long daylight in March and go immediately. They chose the latter, and found the balloon around 9:30pm local time.
+
+Members of the crew include Bryan Chan, Ashish Goel, Tyler Reid, Corey Snyder, and Paul Tarantino. Goel is among researchers developing nanosatellites to look at dust and radiation on Europa, a moon of Jupiter.
+

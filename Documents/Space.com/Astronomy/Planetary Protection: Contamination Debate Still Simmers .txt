@@ -1,0 +1,86 @@
+Planetary Protection: Contamination Debate Still Simmers
+
+By Nola Taylor Redd, Space.com Contributor |  May 8, 2017 07:00am ET
+On Sept. 15, 2017, NASA's Cassini spacecraft will take a suicide plunge into Saturn to avoid contaminating the ringed planet's potentially habitable moons, Titan and Enceladus. 
+
+Cassini's fate is tied to the issue of planetary protection, which refers to the measures scientists and engineers take to minimize that chances that life-forms from Earth make it to other worlds. And with NASA's Mars 2020 rover planning to cache samples to one day return to Earth's labs, planetary protection also means making sure that our own world is safe from contamination by possible alien life.
+
+Planetary protection was the first item on the agenda at the Astrobiology Science Conference, which was held last week in Mesa, Arizona. Chemists, biologists, planetary scientists, astronomers and other researchers all vigorously discussed the issue at the meeting's first session on Monday morning (April 24). [5 Bold Claims of Alien Life]
+
+"Planetary protection has never been more important to consider," said Andrew Maynard, a researcher at Arizona State University's Risk Innovation Lab, who led the discussion. 
+
+Citing Mars sample return, an upcoming mission to Jupiter's ocean-harboring moon Europa and possible future probes that could visit other icy satellites, Maynard engaged the audience of scientists with the stated intent of changing how they think about the process. Maynard, who is not an astrobiologist but a physicist, turned the attention of the room to studies on risk assessment, urging researchers to consider risk not as something to be avoided but rather as "a complex landscape to be moved through to reach goals."
+
+He also said that analyzing the risk of contamination, either of Earth or another world, isn't the exclusive purview of any particular group of scientists — or of scientists in general.  
+
+"Everybody has got some stake," Maynard said.
+
+
+Protecting the Earth
+
+Concern about contamination has been part of exploration since the dawn of the Space Age. The first three sets of astronauts to land on the moon were kept in isolation on their return to Earth to ensure they hadn't brought any pathogens home with them. [NASA's 17 Apollo Moon Missions in Pictures]
+
+Before NASA's Viking 1 and Viking 2 landers were sent to Mars to hunt for life, they were sterilized to minimize the odds that Earth microbes could contaminate their experiments. The robotic explorers that followed were similarly cleansed. And in 1967, the countries of the world agreed that their space missions would work to avoid contaminating Earth or other worlds, making planetary protection an international goal.
+
+The moon rocks returned by Apollo astronauts soon revealed Earth's natural satellite as a barren, inhospitable place unsuitable for life. The comets and asteroids sampled by past and ongoing missions have already polluted Earth's surface, and NASA has deemed these objects unlikely to harbor life.
+
+But Earth has received relatively few samples from Mars in the form of meteorites. While some scientists think that life could have started on the Red Planet and then hitched a ride to Earth, the issue is far from certain. So, when it comes to returning samples from Mars, space agencies will take great care not to infect Earth.
+
+According to NASA procedural requirement NPR 8020.12: "Unless the sample to be returned is subjected to an accepted, approved, sterilization process, the sample container must be sealed after sample acquisition, and a redundant, fail-safe containment with a method for verification of its operation before Earth-return shall be required."
+
+The requirement also states: "The mission and the spacecraft design shall provide a method to 'break the chain of contact' (BTC) with Mars. No uncontained hardware that contacted Mars, directly or indirectly, may be returned to Earth unless sterilized."
+
+But scientists are still debating just what the biggest concerns are. Maynard's presentation, which involved randomly polling audience members and engaging them in debate, revealed that many of the scientists involved in studying how life could evolve beyond Earth disagree on just how much we need to worry about contamination. 
+
+Although the Martian surface appears bereft of life, some researchers think microbes might still exist underground. A sample-return mission could therefore theoretically carry living organisms back to Earth along with rocks and dirt. Whether a Martian microbe could survive on our planet remains a subject of heavy debate.
+
+
+For instance, during the discussion period, Vladimir Airapetian, a researcher at NASA's Goddard Space Flight Center in Greenbelt, Maryland, argued that a living thing that evolved on Mars shouldn't be able to find a place on Earth because all of the planet's biological niches have been filled. 
+
+But Benjamin Wolf of Washington University in St. Louis disagreed. "I don't like the argument that we think the niches are taken," he said, citing the success that many invasive species on Earth have had when pushing into previously occupied niches. 
+
+"People didn't realize that kudzu would take over the entire South," Wolf said, describing the Japanese vine that has blanketed the southern United States since its 1876 introduction. "We need to understand that sometimes scientists don't know things."
+
+Geochemist Stuart Bartlett, of the Tokyo Institute of Technology's Earth-Life Science Institute, also expressed concern about potentially bringing home organisms able to survive in the extreme conditions on Mars.
+
+"Backwards contamination seems like a more natural candidate for spreading exponentially and invading," Bartlett said.
+
+But Maynard doesn't think that scientists should be the only participants in the discussion. He encouraged opening a dialogue with the public, who would also be affected if a harmful organism were returned to Earth. With most of the world unversed in the potential hazards, Maynard encouraged scientists to do a better job of communicating potential issues, a process that would allow everyone to work together to make an informed decision.
+
+He pointed to the opening of the Large Hadron Collider, a particle accelerator along the France-Switzerland border whose activation some feared would create a microscopic black hole with the potential to destroy Earth. While this risk was considered marginal, Maynard pointed out that the improbable disaster would have a worldwide effect, and that scientists included society in the discussion in a reasonable fashion. (No black hole destroyed Earth when the accelerator was switched on, of course.)
+
+When it comes to sample-return missions, scientists need to determine just how large the threat of extraterrestrial contamination might loom, Maynard said.
+
+"It seems like we have a huge diversity of opinion whether alien life is able to survive on Earth," he said.
+
+Contaminating Mars
+
+During the April 24 discussion, scientists also debated the threat exploration missions pose to the pristine environment of Mars and other worlds. Red Planet rovers and landers are kept in strict isolation throughout their construction, which takes place in clean rooms around the world. Components are sterilized to the best ability of current technology, but researchers stress that it's impossible to kill every microbe aboard any craft.
+
+The concern with carrying micro-organisms abroad is twofold. One issue involves the possibility of interfering with experiments designed to hunt for life on another world. If a terrestrial microbe hitched a ride, it could be picked up by the mission's tests, causing scientists to wrongly believe they had discovered alien life. [6 Most Likely Places for Alien Life in the Solar System]
+
+
+Such a mistake, while disappointing in itself, could also affect how people around the world view scientists, participants in the April 24 session said.
+
+"If NASA spent $5 billion on a life-detection mission and discovered life from Earth, then the loss of public trust would really shoot up," said Linda Billings, a researcher at George Washington University in Washington, D.C.
+
+A terrestrial organism traveling to another world via spacecraft also has the potential to infect that world, overwhelming or driving out any existing life. Many of the commenters who didn't think Martian microbes would flourish on Earth also seemed to believe that terrestrial life would be unlikely to thrive on the Red Planet, because of the considerable differences between the two worlds' environments.
+
+But that's just speculation. And even if life from one world wouldn't last long on the other, it's important to keep things clean for the sake of understanding science, researchers at the session said.
+
+"We need to save the Mars questions for Mars and the Earth questions for Earth," one person in the room said. 
+
+The desire to keep Mars free from Earth-based contamination could have serious implications when it comes to sending people to the Red Planet. Humans don't live in isolation; we carry a fleet of micro-organisms everywhere we go, and these tiny creatures outnumber our own cells about 10 to 1. 
+
+"If we send humans anywhere, we contaminate the planet, because we're dead if we're sterile," said one commentator. So, human exploration could lead to a conflict with planetary protection.
+
+Not everyone agrees that humans would automatically contaminate the Red Planet, however. John Rummel, an astrobiologist at East Carolina University in Greenville, North Carolina, and former NASA Planetary Protection Officer, told the room that he doesn't think there has to be a conflict. 
+
+"I don't think it's an all-or-nothing game," Rummel told Space.com. Human exploration could be incremental, he said, with the first explorers making only the most cautious steps outside of their habitation.  
+
+NASA and other government agencies aren't the only organizations that seek to put boots on Mars. For example, last September, SpaceX founder and CEO Elon Musk unveiled his company's plan to help establish a million-person city on the Red Planet.
+
+Even if such efforts succeed, they won't necessarily cause native Mars life to be swamped by microbes from Earth, Rummel said — especially if Red Planet organisms exist only underground, where they're shielded from harmful radiation. 
+
+"Musk is not going to have tourists interfering with the deep Martian subsurface," Rummel said. 
+

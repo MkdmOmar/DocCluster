@@ -1,0 +1,27 @@
+Mars May Have Been Born in the Asteroid Belt
+
+By Elizabeth Howell, Space.com Contributor |  May 15, 2017 06:53am ET
+Mars and Earth have very different histories. A simple example: Earth is mostly covered with water, while Mars lost its water in the distant past. But scientists have also known that the elements on Mars have different isotopes, or atomic masses, particularly for chromium, titanium, and oxygen.
+
+A new paper published in the journal Earth and Planetary Science Letters argues these compositional differences arose because Mars formed in a different part of the solar system than where it is now located. Instead of being between the sun and the asteroid belt, the paper argues Mars formed within the asteroid belt before migrating somewhat closer to the sun to where it is now. The migration occurred, the paper says, due to Mars gravitationally interacting with planetesimals – small bodies such as asteroids – within the belt.
+
+"Since Mars is more massive than the planetesimals, it tends to lose energy when it scatters these planetesimals because it passes them to Jupiter, which then ejects them from the solar system," Ramon Brasser, lead author and associate professor at the Tokyo Institute of Technology's Earth-Life Science Institute, wrote in an e-mail.
+
+RELATED: How Mars Went From Warm and Wet to Cold and Dry
+
+The prevailing theory of the solar system's formation suggests that the sun and its planets formed after a cloud of gas and dust was gravitationally compressed, perhaps from a passing star. Over time, small gas and dust particles stuck together, forming the sun and the modern-day planets.
+
+There is still some debate about whether planets migrated during this process. Previously, scientists theorized that the rocky planets of Mercury, Venus, Earth and Mars collected less gas than the gas giants of Jupiter, Uranus, Saturn and Neptune because the rocky planets were closer to the sun. It was thought that the sun's radiation blew most of the gas into the outer solar system. However, scientists have spotted several Jupiter-sized exoplanets very close to their host stars, which could imply a different formation process that included migration.
+
+In this case, the team tested their hypothesis about Mars' formation by running simplified computer scenarios of the formation of the terrestrial, or rocky, planets, and also looked at samples from Earth, Mars, the moon, and Vesta, which is an asteroid. "We looked for Mars analogs that accreted material in a portion of the disc which Earth did not, and we concluded that the only way to do this is to form Mars far from the Sun, in the inner asteroid belt," Brasser wrote.
+
+Based on previous work from the University of Chicago's Nicolas Dauphas and colleagues, the simulations used by Brasser's team started with sub-Mars planetary embryos. The simulations suggest that Mars grew quickly, then lost access to most of the material, such as gas and dust, to grow within 5-10 million years after the solar system formed. It settled into its current orbit about 120 million years after the solar system's birth, at which point its liquid surface hardened into a crust.
+
+RELATED: ‘Habitable’ Exoplanets Might Not Be Very Earth-Like After All
+
+Mars likely had liquid water running on its surface in the ancient past, but over time its atmosphere thinned and made it impossible for water to exist in liquid form on the surface. Brasser said, however, that the origins of Mars would not influence that process. While Mars was formed in a colder environment (since the asteroid belt is further from the sun), it was only there for a few million years before migrating to its current location.
+
+"Since it only spent less than 100 million years farther than its current location, its atmospheric loss is dominated by the effects at its current location and by the brightening of the sun and loss of its magnetic field," Brasser wrote.
+
+He next plans to test his hypothesis using different terrestrial planet formation models to see if they are better at reproducing traits of Mars than the current model. Brasser added that Mars could be a "smoking gun" at how all the rocky planets formed, so that's one reason he's so interested in attacking the problem.
+
