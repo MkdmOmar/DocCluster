@@ -58,6 +58,19 @@ for f in range(len(txt_files)):
     elif topic == "tech":
         labels.append(3)
         labels_txt.append("tech")
+    elif topic == "ancient law":
+        labels.append(4)
+        labels_txt.append("ancient law")
+    elif topic == "book of genesis":
+        labels.append(5)
+        labels_txt.append("book of genesis")
+    elif topic == "astronomy":
+        labels.append(6)
+        labels_txt.append("astronomy")
+    elif topic == "computer science":
+        labels.append(7)
+        labels_txt.append("computer science")
+
 
 # Constructing index-to-label dictionary for efficient access to label later
 labelToIndx = dict()
@@ -81,15 +94,17 @@ train_corpus = list(read_corpus(data, docLabels))
 # Setting up the Doc2Vec model
 model = gensim.models.doc2vec.Doc2Vec(size=100, min_count=2, iter=200)
 
+print "Building Doc2Vec model vocabulary"
 model.build_vocab(train_corpus)  # Build model vocabulary
 
 # print model.wv.vocab['and'].count
 
+print "Training Doc2Vec model"
 # Train our doc2vec models
 model.train(train_corpus, total_examples=model.corpus_count, epochs=model.iter)
 
 # Getting the inferred Doc2Vec vector for this sample sentence (document)
-print model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
+# print model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
 
 
 # Numpy array to store the inferred Doc2Vec vectors for each document
@@ -109,13 +124,15 @@ for doc_idx, doc_label in enumerate(docLabels):
     second_ranks.append(sims[1])
 
 # print inferredVectors
-
+print "\n\nRanks:"
 print collections.Counter(ranks)  # Results vary due to random seeding and very small corpus
 
 # Save to file
 np.savetxt('inf_vecs.csv', inferredVectors, delimiter=",")
-np.savetxt('labels.csv', labels, delimiter=",")
+np.savetxt('labels.csv', labels, delimiter=",", fmt='%d')
 np.savetxt('labels_txt.csv', labels_txt, delimiter=",", fmt="%s")
+
+print inferredVectors.shape
 
 # pdb.set_trace()
 
@@ -136,6 +153,7 @@ clf = GridSearchCV(svc, param_grid)
 #
 # start = time.clock()
 #
+print "\n\nFitting SVM model"
 clf.fit(X_train, y_train)
 # # dec = clf.decision_function(x_train)
 # # clf.predict(X_Test)
