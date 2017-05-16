@@ -154,10 +154,10 @@ print(report)
 # pdb.set_trace()
 
 
-print(u'Document ({}): «{}»\n'.format(doc_idx, ' '.join(train_corpus[doc_idx].words)))
-print(u'SIMILAR/DISSIMILAR DOCS PER MODEL %s:\n' % model)
-for label, index in [('MOST', 0), ('MEDIAN', len(sims)//2), ('LEAST', len(sims) - 1)]:
-    print(u'%s %s: «%s»\n' % (label, sims[index], ' '.join(train_corpus[labelToIndx[sims[index][0]]].words)))
+# print(u'Document ({}): «{}»\n'.format(doc_idx, ' '.join(train_corpus[doc_idx].words)))
+# print(u'SIMILAR/DISSIMILAR DOCS PER MODEL %s:\n' % model)
+# for label, index in [('MOST', 0), ('MEDIAN', len(sims)//2), ('LEAST', len(sims) - 1)]:
+#     print(u'%s %s: «%s»\n' % (label, sims[index], ' '.join(train_corpus[labelToIndx[sims[index][0]]].words)))
 
 
 
