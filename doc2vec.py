@@ -140,6 +140,19 @@ print inferredVectors.shape
 ######## SVM Stuff #######
 ##########################
 
+# 5 classes
+# lab = np.array(labels)
+# ind = (lab == 4) | (lab == 5) | (lab == 6) | (lab == 0) | (lab == 2)
+# labels = lab[ind]
+# inferredVectors = inferredVectors[ind]
+
+# 3 classes
+lab = np.array(labels)
+ind = (lab == 4) | (lab == 5) | (lab == 2)
+labels = lab[ind]
+inferredVectors = inferredVectors[ind]
+
+# X_train, X_test, y_train, y_test = train_test_split(inferredVectors, labels, test_size=0.2)
 X_train, X_test, y_train, y_test = train_test_split(inferredVectors, labels, test_size=0.2)
 
 # Specify Grid search
