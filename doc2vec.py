@@ -4,6 +4,7 @@ import collections
 import pdb
 import glob
 import numpy as np
+import logging
 
 from sklearn import svm
 from sklearn.model_selection import GridSearchCV
@@ -23,6 +24,10 @@ def read_corpus(doc_list, labels_list, tokens_only=False):
         else:
             # For training data, add tags
             yield gensim.models.doc2vec.TaggedDocument(words=gensim.utils.simple_preprocess(doc.read()), tags=[labels_list[idx]])
+
+logging.basicConfig(level=logging.INFO, format='%(message)s\n')
+logging.getLogger("parsedatetime").propagate = False  # Disable logging for parsedatetime module
+logger = logging.getLogger()
 
 
 # pdb.set_trace()
