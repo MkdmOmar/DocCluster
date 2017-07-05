@@ -108,6 +108,9 @@ print "Training Doc2Vec model"
 # Train our doc2vec models
 model.train(train_corpus, total_examples=model.corpus_count, epochs=model.iter)
 
+print "Finished training, saving model to disk"
+model.save("myModel")
+
 # Getting the inferred Doc2Vec vector for this sample sentence (document)
 # print model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
 
