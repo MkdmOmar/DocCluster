@@ -44,14 +44,12 @@ sizeOutputVector = 8  # Size of the output layer of the neural net and the y-lab
 
 # Builds an array of one-hot y-label vectors for training data where the index of each 1 corresponds to the correct label
 trainY = np.zeros((len(trainX), sizeOutputVector))  # Filling with zeros
-trainY[np.arange(len(trainX)), yTrainVals - 1] = 1  # Inserting a 1 at the location corresponding to the correct label
-# Subtracting 1 from yTrainVals because labels begin at 1 instead of 0
+trainY[np.arange(len(trainX)), yTrainVals] = 1  # Inserting a 1 at the location corresponding to the correct label
 # print trainY.shape
 
 # Builds an array of y-label vectors for testing data where the index of each 1 corresponds to the label
 testY = np.zeros((len(testX), sizeOutputVector))  # Filling with zeros
-testY[np.arange(len(testX)), yTestVals - 1] = 1  # Inserting a 1 at the location corresponding to the correct label
-# Subtracting 1 from yTrainVals because labels begin at 1 instead of 0
+testY[np.arange(len(testX)), yTestVals] = 1  # Inserting a 1 at the location corresponding to the correct label
 # print testY.shape
 
 

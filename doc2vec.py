@@ -98,7 +98,7 @@ train_corpus = list(read_corpus(data, docLabels))
 # pdb.set_trace()
 
 # Setting up the Doc2Vec model
-model = gensim.models.doc2vec.Doc2Vec(size=100, min_count=2, iter=200)
+model = gensim.models.doc2vec.Doc2Vec(size=100, min_count=1, iter=25)
 
 print "Building Doc2Vec model vocabulary"
 model.build_vocab(train_corpus)  # Build model vocabulary
@@ -129,7 +129,7 @@ for doc_idx, doc_label in enumerate(docLabels):
     sims = model.docvecs.most_similar([inferred_vector], topn=len(model.docvecs))
     rank = [docid for docid, sim in sims].index(doc_label)
     ranks.append(rank)
-
+    print rank
     second_ranks.append(sims[1])
 
 # print inferredVectors
