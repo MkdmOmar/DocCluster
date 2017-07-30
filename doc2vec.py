@@ -98,7 +98,11 @@ train_corpus = list(read_corpus(data, docLabels))
 # pdb.set_trace()
 
 # Setting up the Doc2Vec model
+<<<<<<< HEAD
 model = gensim.models.doc2vec.Doc2Vec(size=200, min_count=2, iter=20, dm_concat=0)
+=======
+model = gensim.models.doc2vec.Doc2Vec(size=100, min_count=1, iter=25)
+>>>>>>> 508c8a91c29a21d298b882129d76f3418525eef9
 
 print "Building Doc2Vec model vocabulary"
 model.build_vocab(train_corpus)  # Build model vocabulary
