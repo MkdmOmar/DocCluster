@@ -2,8 +2,8 @@
 addpath tSNE_matlab/
 
 %% Load files
-load('./inf_vecs.csv');
-load('./labels.csv');
+load('vectorized_data/inf_vecs.csv');
+load('vectorized_data/labels.csv');
 
 %% Process labels into text labels
 

@@ -17,14 +17,14 @@ Architecture: Input layer -> hidden layer -> softmax layer (+ cross entropy loss
 # Used pandas to import data instead of numpy since it is much faster
 
 # Import vectors data through pandas as a numpy ndarray
-vectors = pd.read_csv('inf_vecs.csv', delimiter=',', header=None).as_matrix()
+vectors = pd.read_csv('vectorized_data/inf_vecs.csv', delimiter=',', header=None).as_matrix()
 print("loaded vectors")
 
 # print vectors.shape
 # print vectors[0]
 
 # Import labels data through pandas as a numpy ndarray
-labels = pd.read_csv('labels.csv', delimiter='\n', header=None).as_matrix()
+labels = pd.read_csv('vectorized_data/labels.csv', delimiter='\n', header=None).as_matrix()
 labels = labels.flatten() # Flatten the ndarray to a one-dimensional vector (needed in the next step)
 print("loaded labels")
 
@@ -160,5 +160,5 @@ for epoch in nEpochs:
     topYLoc = ymax - (ymax - ymin) * 0.025
     plt.text(midXLoc, midYLoc, 'Num Epochs: ' + str(epoch) + '\nBatch Size: ' + str(batchSize), ha='center', va='top')
     # plt.show()  # Show plot
-    plt.savefig(str(epoch) + 'epochs_simpleNetAccuracies', dpi=300)
+    plt.savefig('NN_Accuracy_Plots' + str(epoch) + 'epochs_simpleNetAccuracies', dpi=300)
     plt.close()

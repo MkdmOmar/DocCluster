@@ -98,11 +98,7 @@ train_corpus = list(read_corpus(data, docLabels))
 # pdb.set_trace()
 
 # Setting up the Doc2Vec model
-<<<<<<< HEAD
-model = gensim.models.doc2vec.Doc2Vec(size=200, min_count=2, iter=20, dm_concat=0)
-=======
 model = gensim.models.doc2vec.Doc2Vec(size=100, min_count=1, iter=25)
->>>>>>> 508c8a91c29a21d298b882129d76f3418525eef9
 
 print "Building Doc2Vec model vocabulary"
 model.build_vocab(train_corpus)  # Build model vocabulary
@@ -114,7 +110,7 @@ print "Training Doc2Vec model"
 model.train(train_corpus, total_examples=model.corpus_count, epochs=model.iter)
 
 print "Finished training, saving model to disk"
-model.save("myModel")
+model.save("Doc2VecModel")
 
 # Getting the inferred Doc2Vec vector for this sample sentence (document)
 # print model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
@@ -142,9 +138,9 @@ print "\n\nRanks:"
 print collections.Counter(ranks)  # Results vary due to random seeding and very small corpus
 
 # Save to file
-np.savetxt('inf_vecs.csv', inferredVectors, delimiter=",")
-np.savetxt('labels.csv', labels, delimiter=",", fmt='%d')
-np.savetxt('labels_txt.csv', labels_txt, delimiter=",", fmt="%s")
+np.savetxt('vectorized_data/inf_vecs.csv', inferredVectors, delimiter=",")
+np.savetxt('vectorized_data/labels.csv', labels, delimiter=",", fmt='%d')
+np.savetxt('vectorized_data/labels_txt.csv', labels_txt, delimiter=",", fmt="%s")
 
 print inferredVectors.shape
 
