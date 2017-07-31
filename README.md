@@ -1,2 +1,2 @@
 # DocCluster
-Uses Doc2Vec to generate models for a corpus of documents. Clusters the document vectors using PCA and other classification techniques.
+Learns embeddings for documents using Paragraph2Vec. Clusters the document vectors using tSNE. Learns categories using SVMs and neural nets.
